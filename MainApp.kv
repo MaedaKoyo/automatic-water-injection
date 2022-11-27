@@ -1,0 +1,20 @@
+TextWidget:
+
+<TextWidget>:
+    BoxLayout:
+        orientation: 'vertical'
+        size: root.size
+
+        Button:
+            id: button1
+            text: "ポンプON"
+            font_size: 100
+            background_color: (0.1,1,0.1,1)
+            on_press: root.buttonClicked1()
+
+        Button:
+            id: button2
+            text: "ポンプOFF"
+            font_size: 100
+            background_color: (1,0,0.1,1)
+            on_press: root.buttonClicked2()
